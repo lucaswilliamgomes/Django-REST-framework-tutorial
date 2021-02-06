@@ -1,8 +1,10 @@
 from pathlib import Path
+from decouple import config
+
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-SECRET_KEY = 'p=bbky2^k!yms!rsothpzd=ap&vz_4#-w#m5vsd*c75dg(kvb('
+SECRET_KEY = config('SECRET_KEY', default="changeme")
 
 DEBUG = True
 
