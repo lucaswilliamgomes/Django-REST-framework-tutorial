@@ -123,7 +123,7 @@ JSON example snippet:
     "highlight": "http://127.0.0.1:8000/snippets/6/highlight/",
     "owner": "lucas",
     "title": "hello world",
-    "code": "cout << "hello world" << endl;",
+    "code": "cout << \"hello world\" << endl;",
     "linenos": false,
     "language": "c++",
     "style": "abap"
